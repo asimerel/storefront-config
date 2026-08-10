@@ -72,6 +72,8 @@ spec:
           value: http://$(OTEL_COLLECTOR_NAME):4317
         - name: OTEL_EXPORTER_OTLP_PROTOCOL
           value: grpc
+        - name: OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE
+          value: cumulative
         - name: WEB_OTEL_SERVICE_NAME
           value: frontend-web
         # Browser-side (RUM) traces are proxied through frontend-proxy's
