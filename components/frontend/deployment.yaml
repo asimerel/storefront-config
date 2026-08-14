@@ -62,6 +62,8 @@ spec:
           value: http://shipping:8080
         - name: FLAGD_HOST
           value: flagd
+        - name: FLAGD_PORT
+          value: '8013'
         - name: ENV_PLATFORM
           value: kubernetes
         - name: OTEL_COLLECTOR_NAME
