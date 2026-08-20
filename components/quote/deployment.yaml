@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: quote
-        image: public.ecr.aws/v4z2v9g0/webshop/quote:2026.09.04.1
+        image: public.ecr.aws/v4z2v9g0/webshop/quote:2026.09.07.1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080

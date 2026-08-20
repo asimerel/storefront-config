@@ -31,7 +31,7 @@ spec:
         - until nc -z -v -w30 postgres.datastore.svc.cluster.local 5432; do echo waiting for postgres.datastore; sleep 2; done;
       containers:
       - name: product-catalog
-        image: public.ecr.aws/v4z2v9g0/webshop/product-catalog:2026.09.04.1
+        image: public.ecr.aws/v4z2v9g0/webshop/product-catalog:2026.09.07.1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
