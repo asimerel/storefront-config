@@ -60,4 +60,4 @@ spec:
           value: service.version=3.0.0,service.criticality=high
         resources:
           limits:
-            memory: 50Mi
+            memory: 60Mi
