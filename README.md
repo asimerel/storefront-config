@@ -1,1 +1,3 @@
 # storefront-config
+
+Kubernetes manifests.
