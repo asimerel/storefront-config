@@ -7,6 +7,7 @@ metadata:
     app.kubernetes.io/version: 3.0.0
     app.kubernetes.io/component: product-catalog
     app.kubernetes.io/name: product-catalog
+    app.kubernetes.io/part-of: webshop
 spec:
   replicas: 1
   selector:

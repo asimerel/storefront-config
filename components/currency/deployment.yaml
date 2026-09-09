@@ -7,6 +7,7 @@ metadata:
     app.kubernetes.io/version: 3.0.0
     app.kubernetes.io/component: currency
     app.kubernetes.io/name: currency
+    app.kubernetes.io/part-of: webshop
 spec:
   replicas: 1
   selector:

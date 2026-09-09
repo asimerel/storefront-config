@@ -7,6 +7,7 @@ metadata:
     app.kubernetes.io/version: 3.0.0
     app.kubernetes.io/component: recommendation
     app.kubernetes.io/name: recommendation
+    app.kubernetes.io/part-of: webshop
 spec:
   replicas: 1
   selector:
