@@ -61,7 +61,7 @@ spec:
           value: service.version=3.0.0,service.criticality=high
         resources:
           limits:
-            memory: 128Mi
+            memory: 160Mi
       initContainers:
       - name: wait-for-redis
         image: busybox:latest
