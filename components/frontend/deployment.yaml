@@ -10,6 +10,7 @@ metadata:
     app.kubernetes.io/part-of: webshop
 spec:
   replicas: 1
+  revisionHistoryLimit: 10
   selector:
     matchLabels:
       opentelemetry.io/name: frontend
