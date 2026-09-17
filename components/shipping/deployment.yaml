@@ -54,7 +54,7 @@ spec:
         - name: OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE
           value: cumulative
         - name: OTEL_RESOURCE_ATTRIBUTES
-          value: service.version=3.0.0
+          value: service.version=3.0.0,service.criticality=high
         resources:
           limits:
             memory: 30Mi
