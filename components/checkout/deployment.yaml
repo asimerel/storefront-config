@@ -75,6 +75,8 @@ spec:
           value: http://$(OTEL_COLLECTOR_NAME):4317
         - name: OTEL_EXPORTER_OTLP_PROTOCOL
           value: grpc
+        - name: OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE
+          value: cumulative
         - name: GOMEMLIMIT
           value: 16MiB
         - name: OTEL_RESOURCE_ATTRIBUTES
