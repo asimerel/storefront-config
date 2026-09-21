@@ -46,6 +46,8 @@ spec:
               fieldPath: metadata.labels['app.kubernetes.io/component']
         - name: PRODUCT_CATALOG_PORT
           value: '8080'
+        - name: GOMEMLIMIT
+          value: 16MiB
         - name: OTEL_SEMCONV_STABILITY_OPT_IN
           value: database
         - name: DB_CONNECTION_STRING
