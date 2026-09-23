@@ -54,6 +54,8 @@ spec:
           value: postgres://shop_user:shop_password@postgres.datastore.svc.cluster.local:5432/shop_db?sslmode=disable
         - name: FLAGD_HOST
           value: flagd
+        - name: FLAGD_PORT
+          value: '8013'
         - name: OTEL_COLLECTOR_NAME
           value: otel-collector.telemetry.svc.cluster.local
         - name: OTEL_EXPORTER_OTLP_ENDPOINT
