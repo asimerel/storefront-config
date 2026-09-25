@@ -8,7 +8,6 @@ metadata:
     app.kubernetes.io/component: cart
     app.kubernetes.io/name: cart
     app.kubernetes.io/part-of: webshop
-# Ingress to this Service is limited to checkout-path callers; see networkpolicy.yaml.
 spec:
   type: ClusterIP
   ports:
