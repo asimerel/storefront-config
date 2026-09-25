@@ -51,7 +51,7 @@ spec:
         - name: OTEL_SEMCONV_STABILITY_OPT_IN
           value: database
         - name: DB_CONNECTION_STRING
-          value: postgres://shop_user:sh0p-Qv7nR2xLp9Wd@postgres.datastore.svc.cluster.local:5432/shop_db?sslmode=disable
+          value: postgres://shop_user:shop_password@postgres.datastore.svc.cluster.local:5432/shop_db?sslmode=disable
         - name: FLAGD_HOST
           value: flagd
         - name: FLAGD_PORT
