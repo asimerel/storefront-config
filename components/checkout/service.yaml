@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: checkout
   labels:
+    app.kubernetes.io/tier: backend
     opentelemetry.io/name: checkout
     app.kubernetes.io/component: checkout
     app.kubernetes.io/name: checkout
