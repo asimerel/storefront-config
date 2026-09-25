@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: cart
   labels:
+    app.kubernetes.io/tier: backend
     opentelemetry.io/name: cart
     app.kubernetes.io/component: cart
     app.kubernetes.io/name: cart
