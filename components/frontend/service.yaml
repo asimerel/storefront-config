@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: frontend
   labels:
+    app.kubernetes.io/tier: backend
     opentelemetry.io/name: frontend
     app.kubernetes.io/component: frontend
     app.kubernetes.io/name: frontend
