@@ -88,6 +88,7 @@ spec:
           value: http://localhost:8080/otlp-http/v1/traces
         - name: OTEL_RESOURCE_ATTRIBUTES
           value: service.version=3.0.0,service.criticality=critical
+        # Sized from the last four weeks of working-set metrics.
         resources:
           limits:
             memory: 250Mi
